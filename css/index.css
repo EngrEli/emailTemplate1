@@ -190,15 +190,16 @@ body {
   margin: 0 32px;
 }
 
+.server-sharing__main-text--mobile,
+.server-sharing__sub-text--mobile {
+  display: none;
+}
+
 /* Media Query */
 /* Mobile */
 @media screen and (max-width: 599px) {
   html {
     font-size: 13px;
-  }
-
-  .server-sharing__hero {
-    text-align: center;
   }
 
   .server-sharing {
@@ -207,5 +208,15 @@ body {
     padding: 25px 15px;
     margin: 0;
     border-radius: 0;
+  }
+
+  .server-sharing__main-text,
+  .server-sharing__sub-text {
+    display: none;
+  }
+
+  .server-sharing__main-text--mobile,
+  .server-sharing__sub-text--mobile {
+    display: block;
   }
 }
